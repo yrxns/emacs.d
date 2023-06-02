@@ -11,6 +11,9 @@
 (global-display-line-numbers-mode +1)
 (setq display-line-numbers-type 'relative)
 
+;;调整字体大小
+(set-face-attribute'default nil :height 280)
+
 ;; 关闭GUI功能
 (setq use-file-dialog nil
       use-dialog-box nil
