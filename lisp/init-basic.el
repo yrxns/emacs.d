@@ -6,6 +6,21 @@
 ;;  :ensure t
 ;;  :hook (after-init . (lambda () (save-place-mode t))))
 
+
+;;启动emacs时窗口最大化
+;;方式一
+(defun fullscreen ()
+  (interactive)
+  (set-frame-parameter nil 'fullscreen
+       (if (frame-parameter nil 'fullscreen) nil 'fullboth)))
+
+(global-set-key [f12] 'fullscreen)
+
+;;方式二
+(add-to-list 'default-frame-alist '(fullscreen . maximized))
+
+
+
 ;; 任何地方都使用UTF-8
 (set-charset-priority 'unicode)
 (setq locale-coding-system   'utf-8)    ; pretty

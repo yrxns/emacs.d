@@ -7,8 +7,9 @@
 ;; 关闭滚动条
 (scroll-bar-mode -1)
 
-;; 开启行号
+;; 开启相对行号
 (global-display-line-numbers-mode +1)
+(setq display-line-numbers-type 'relative)
 
 ;; 关闭GUI功能
 (setq use-file-dialog nil
