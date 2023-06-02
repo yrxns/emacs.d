@@ -4,7 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(package-selected-packages
-   '(smart-mode-line cmake-mode use-package restart-emacs gruvbox-theme)))
+   '(drag-stuff smart-mode-line cmake-mode use-package restart-emacs gruvbox-theme)))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.

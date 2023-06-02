@@ -48,6 +48,8 @@
 ;;高亮当前行
 (global-hl-line-mode 1)
 
+(defalias 'yes-or-no-p 'y-or-n-p)
+
 
 
 

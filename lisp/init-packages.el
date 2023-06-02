@@ -44,6 +44,11 @@
         sml/theme 'respectful)
   (sml/setup))
 
+;;文本编辑之行/区域上下移动
+(use-package drag-stuff
+             :bind (("<M-up>" . drag-stuff-up)
+                    ("<M-down>" . drag-stuff-down)))
+
 
 
 
