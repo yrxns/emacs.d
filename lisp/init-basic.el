@@ -45,8 +45,23 @@
 ;; 高亮对应的括号
 (show-paren-mode 1)
 
+;; 自动补全括号
+(electric-pair-mode t)
+
+;; 当另一程序修改了文件时，让 Emacs 及时刷新 Buffer
+(global-auto-revert-mode t)
+
+;; 选中文本后输入文本会替换文本
+(delete-selection-mode t)
+
 ;;高亮当前行
 (global-hl-line-mode 1)
+
+;; 在 Mode line 上显示列号
+(column-number-mode t)
+
+;; 新起一行并做缩进
+(global-set-key (kbd "RET") 'newline-and-indent)
 
 (defalias 'yes-or-no-p 'y-or-n-p)
 

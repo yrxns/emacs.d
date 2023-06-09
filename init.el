@@ -8,5 +8,6 @@
 (require 'init-ui)
 (require 'init-basic)
 (require 'init-keybindings)
+(require 'init-functions)
 (require 'init-org)
 

@@ -8,7 +8,7 @@
 (scroll-bar-mode -1)
 
 ;; 开启相对行号
-(global-display-line-numbers-mode +1)
+(global-display-line-numbers-mode 1)
 (setq display-line-numbers-type 'relative)
 
 ;;调整字体大小
